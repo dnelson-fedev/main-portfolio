@@ -1,6 +1,15 @@
-// template_8twpwgc
-// service_4pyo5um
-// WCptaUdsjFzovdoBc
+let isModalOpen = false;
+let contrastToggle = false;
+
+function toggleContrast() {
+  contrastToggle = !contrastToggle;
+  if (contrastToggle) {
+    document.body.classList += " dark-theme";
+  }
+  else {
+    document.body.classList.remove("dark-theme")
+  }
+}
 
 function contact(event) {
   event.preventDefault();
@@ -22,4 +31,14 @@ function contact(event) {
         'The email service is temporarily unavailable. Please contact me directly at dnelson.digital@gmail.com'
       )
     })
+}
+
+
+function toggleModal() {
+  if (isModalOpen) {
+    isModalOpen = false;
+    return document.body.classList.remove("modal--open");
+  }
+  isModalOpen = true;
+  document.body.classList += " modal--open";
 }
