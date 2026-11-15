@@ -624,3 +624,59 @@ footer {
 .footer__copyright {
   color: #fff;
 }
+
+/* 
+
+SHAPES
+
+*/
+
+.shape {
+  position: fixed;
+}
+
+.shape--0 {
+  top: 15vh;
+  left: 5vw;
+  width: unset;
+}
+.shape--1 {
+  top: 15vh;
+  left: 50vw;
+  width: unset;
+}
+.shape--2 {
+  top: 15vh;
+  left: 85vw;
+  width: unset;
+}
+.shape--3 {
+  top: 50vh;
+  left: 5vw;
+  width: unset;
+}
+.shape--4 {
+  top: 50vh;
+  left: 50vw;
+  width: unset;
+}
+.shape--5 {
+  top: 50vh;
+  left: 85vw;
+  width: unset;
+}
+.shape--6 {
+  top: 80vh;
+  left: 5vw;
+  width: unset;
+}
+.shape--7 {
+  top: 80vh;
+  left: 50vw;
+  width: unset;
+}
+.shape--8 {
+  top: 80vh;
+  left: 85vw;
+  width: unset;
+}
